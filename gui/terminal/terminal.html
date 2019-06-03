@@ -1,0 +1,68 @@
+<!-- COMMAND LINE  -->
+<!-- <div id="xterm-container"></div> -->
+<div id="wrapper">
+    <pre id="editor">
+<!-- CREATE TABLE `process` (
+    `id_process` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+    `id_malfunction` int(10) UNSIGNED NOT NULL,
+    `subdepartment` enum('Δ1','Δ3','Δ4','HW') NOT NULL,
+    `repair` bit(1) NOT NULL COMMENT 'bool',
+    `date_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `notices` varchar(200) DEFAULT 'NO NOTICES',
+    `surname` varchar(20) DEFAULT NULL,
+    PRIMARY KEY (`id_process`),
+    FOREIGN KEY (`id_malfunction`) REFERENCES `inout`(`id_inout`)
+    ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+SELECT * FROM `systems`; -->
+SELECT * FROM `employees`;
+    </pre>
+    <!-- <output></output>
+    <div id="input-line" class="input-line">
+        <div class="prompt"></div>
+        <input class="cmdline"  />
+    </div> -->
+    
+        
+    
+</div>
+<button id="button_exec" class="btn btn-primary">EXEC</button>
+<div id="example-table">
+    <!-- <thead>
+        <tr>
+            <th width="200">Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Height</th>
+            <th>Favourite Color</th>
+            <th>Date of Birth</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Billy Bob</td>
+            <td>12</td>
+            <td>male</td>
+            <td>1</td>
+            <td>red</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Mary May</td>
+            <td>1</td>
+            <td>female</td>
+            <td>2</td>
+            <td>blue</td>
+            <td>14/05/1982</td>
+        </tr>
+    </tbody> -->
+</div>
+
+<script src = "../gui/terminal/terminal.js" ></script>
+<script src="../external_modules/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/twilight");
+    editor.session.setMode("ace/mode/sql");
+</script>

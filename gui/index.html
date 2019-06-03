@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Data Tab</title>
+        <link rel = "stylesheet" href = "../node_modules/bootstrap/dist/css/bootstrap.css" />
+        <link rel = "stylesheet" href = "../gui/styles.css" />
+        <link rel = "stylesheet" href = "../gui/navigation_bar/nav_bar.css" />
+        <link rel = "stylesheet" href = "../gui/terminal/terminal.css" />
+        <!-- <link rel = "stylesheet" href = "../gui/xterm.css" /> -->
+        
+        
+        <link href="../external_modules/Tabulator/tabulator_midnight.css" rel="stylesheet">
+        <script type="text/javascript" src="../external_modules/Tabulator/tabulator.js"></script>
+
+        <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+        <script type="text/javascript" src="../node_modules/popper.js/dist/umd/popper.js"></script>
+        <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   
+    <body>
+        <!-- Menu Navigation Bar -->
+        <!-- --------------------------------------------------------------------------- -->
+        <nav><ul class="topnav">
+            <!-- <li data-content="home/home.html"><a class="active" href="#">Home</a></li> -->
+            <li data-content="buttons/buttons.html"><a href="#">Buttons</a></li>
+            <!-- <li data-content="update/update.html"><a href="#">Update</a></li> -->
+            <li data-content="terminal/terminal.html"><a href="#">SQL</a></li>
+        </ul></nav>
+        <!-- 
+        --   TO-DO
+        --   READ MENU FROM JSON WITH LINKS TO HTML FOLDERS
+        -->
+        <!-- --------------------------------------------------------------------------- -->
+
+        
+
+
+        <div class = "container">
+            <div id="display-content">
+
+            </div>
+        </div>
+
+
+
+        <!-- SCRIPTS  -->
+        <!-- ---------------------------------------------------------------------- -->
+        <script src = "../src/misc.js" ></script>
+        <script src = "../src/includes.js" ></script>
+        <script src = "../src/mysql_interface.js" ></script>
+        <script src = "../src/tabulator_f.js" ></script>
+        <script src = "../src/mysql_parser.js" ></script>
+        <!-- <script src = "../src/sql_interface.js" ></script> -->
+        <script src = "../gui/navigation_bar/nav_bar.js" ></script>
+        
+        
+    </body>
+</html>

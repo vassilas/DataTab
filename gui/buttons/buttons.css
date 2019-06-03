@@ -1,0 +1,27 @@
+#select-button-list ul{
+    list-style-type:none;
+}
+
+
+#buttons{
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#insert_exec_button{
+    display: none;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+.editImage {
+    height:25px;
+    width:25px;
+    cursor:pointer;
+}
+
+#save_button{
+    height: 50px;
+    display: none;
+}

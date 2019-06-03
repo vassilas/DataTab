@@ -1,0 +1,22 @@
+<!-- Insert Contacts Form -->
+<h3>Enter Names and Email addresses of your contacts</h3>
+<div class = "form-group">
+    <label for = "Name">Name</label>
+    <input type = "text" name = "Name" value = "" id = "Name" 
+        placeholder = "Name" class = "form-control" required>
+    <label for = "Email">Email</label>
+    <input type = "email" name = "Email" value = "" id = "Email" 
+        placeholder = "Email" class = "form-control" required>
+    <button class = "btn btn-primary" id = "add-to-list">Add to list!</button>
+</div>
+
+<!-- Contact Table  -->
+<div id = "contact-list">
+    <table class = "table-bordered" id = "contact-table"></table>
+</div>
+
+<!-- SQL iserts generation text  -->
+<div id="sql_inserts"></div>
+
+<script src = "../src/table_create.js" ></script>
+<!-- <script src = "../src/sql_interface.js" ></script> -->

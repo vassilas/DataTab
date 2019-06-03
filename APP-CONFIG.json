@@ -1,0 +1,18 @@
+{
+    "mysql_configuration":{
+        "host":"localhost",
+        "user":"root",
+        "password":"",
+        "database":"test"
+    },
+    "select_buttons":[
+        {
+            "button_name":"employees",
+            "sql_query":"SELECT * FROM `employees`;"
+        },
+        {
+            "button_name":"residence",
+            "sql_query":"SELECT * FROM `residence`;"
+        }
+    ]
+}
