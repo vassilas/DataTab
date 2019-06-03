@@ -2,8 +2,9 @@
 
 ## Overview
 A friendly and easy to configure and integrate interface for managing SQL databases.
-
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/vassilas/DataTab/master/doc/img/select.png" width="500" >
+</p>
 
 ### INSTALLATION
 #### Dependencies
