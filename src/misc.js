@@ -59,6 +59,28 @@ function remove_chars(chars, str){
 
 
 
+
+
+function delete_item_from_array(array,item)
+{
+    for( var i = 0; i < array.length; i++){ 
+        if ( array[i] === item) {
+            array.splice(i, 1); 
+            i--;
+        }
+    }    
+
+    return array;
+}
+
+
+
+
+
+
+
+
+
 function delete_row(x,row){
     console.log("DELETE :")
     console.log(x)
