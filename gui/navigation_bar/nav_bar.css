@@ -4,7 +4,11 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    
+    width:100%;
+    position: fixed;
+    top: 0;
+    -webkit-app-region: drag;
+    z-index: 999;
 }
   
 ul.topnav li {float: left;-webkit-app-region: none;}

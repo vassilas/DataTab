@@ -4,10 +4,13 @@ const path = require('path')
 const electron = require('electron')
 
 
+
 // Enable live reload for all the files inside project directory
 require('electron-reload')(__dirname);
 
-var win
+let win
+
+
 
 function createWindow() {
    win = new BrowserWindow({
@@ -25,7 +28,7 @@ function createWindow() {
       protocol: 'file:',
       slashes: true
    }))
-   // win.webContents.openDevTools()
+   win.webContents.openDevTools()
 }
 
 app.on('ready', createWindow)

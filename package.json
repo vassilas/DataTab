@@ -4,25 +4,28 @@
   "description": "EMY Charge Administration System",
   "main": "main.js",
   "scripts": {
-    "start":"electron main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron main.js",
+    "test": "electron main.js",
+    "postinstall": "install-app-deps"
   },
   "author": "Vasilas Konstantinos",
   "license": "MIT",
   "dependencies": {
-    "csv": "^5.1.1",
     "bootstrap": "^4.3.1",
+    "csv": "^5.1.1",
     "csv2sql-stream": "0.0.22",
     "moment": "^2.24.0",
     "mysql": "^2.16.0",
     "popper.js": "^1.14.7",
-    "sql.js": "^0.5.0"
+    "sql.js": "^0.5.0",
+    "sqlite3": "^4.0.9"
   },
   "devDependencies": {
     "bootstrap": "^4.3.1",
     "csv": "^5.1.1",
     "csv2sql-stream": "0.0.22",
     "decompress-zip": "^0.2.2",
+    "electron-builder": "^20.44.4",
     "electron-packager": "^13.0.1",
     "electron-reload": "^1.4.0",
     "jquery": "^3.4.0",

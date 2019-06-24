@@ -26,7 +26,6 @@ var json_ret = $.getJSON( "../APP-CONFIG.json", {
         // SQL QUERIES AND TABLE BUILD 
         // ------------------------------------------------------------------------------
         $('#select-button-list2 button').click(function() {
-
             // MySQL SELECT QUERY 
             let command = $(this).data('cmd')
             var ret = mysql_select(command);
