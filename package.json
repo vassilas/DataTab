@@ -28,7 +28,7 @@
     "electron-builder": "^20.44.4",
     "electron-packager": "^13.0.1",
     "electron-reload": "^1.4.0",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "moment": "^2.24.0",
     "mysql": "^2.16.0",
     "popper.js": "^1.14.7",
